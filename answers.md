@@ -58,3 +58,11 @@ contactSubmitButton.setAttribute("disabled", " ");
 QUESTION 14
 var bioInfo = document.querySelector("ul.bio-info")
 bioInfo.remove("bio-info-item");
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+QUESTION 1
+var timeTravel = document.querySelector("div#time-travel.bar-filled.highlight");
+timeTravel.remove(timeTravel);
+
+QUESTION 2
