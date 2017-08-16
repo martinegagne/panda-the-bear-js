@@ -61,8 +61,19 @@ bioInfo.remove("bio-info-item");
 
 ///////////////////////////////////////////////////////////////////////////////////////////////
 
-QUESTION 1
+QUESTION 1.1
 var timeTravel = document.querySelector("div#time-travel.bar-filled.highlight");
 timeTravel.remove(timeTravel);
 
-QUESTION 2
+QUESTION 1.2
+var pikachu= document.querySelector("#right-image > img");
+var pikachuClone = pikachu.cloneNode(true)
+
+var div = document.querySelector(".portfolio-container")
+div.appendChild(pikachuClone)
+
+QUESTION 3
+for (var i = 0; i <= 10; i++) {
+  var pikachuClone = pikachu.cloneNode(true)
+  div.appendChild(pikachuClone)
+}
