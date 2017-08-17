@@ -72,8 +72,17 @@ var pikachuClone = pikachu.cloneNode(true)
 var div = document.querySelector(".portfolio-container")
 div.appendChild(pikachuClone)
 
-QUESTION 3
+QUESTION 2
 for (var i = 0; i <= 10; i++) {
   var pikachuClone = pikachu.cloneNode(true)
   div.appendChild(pikachuClone)
 }
+
+QUESTION 3
+var dateText = document.createTextNode(new Date());
+var rightSpan = document.createElement('span');
+rightSpan.appendChild(dateText)
+listItem.appendChild(rightSpan);
+document.querySelector('aside > ul')
+var bio = document.querySelector('aside > ul')
+bio.appendChild(listItem)
